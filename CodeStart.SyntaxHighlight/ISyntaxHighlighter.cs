@@ -3,7 +3,7 @@
 namespace CodeStart.SyntaxHighlight
 {
     /// <summary> Syntax highlighter interface </summary>
-    interface ISyntaxHighlighter
+    public interface ISyntaxHighlighter
     {
         /// <summary>
         /// Highlight specified text
