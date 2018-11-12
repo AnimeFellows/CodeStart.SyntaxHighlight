@@ -9,9 +9,13 @@ namespace CodeStart.SyntaxHighlight
     [Flags]
     public enum HighlightStyle
     {
+        /// <summary> Default style </summary>
         Default = 0,
+        /// <summary> Bold style </summary>
         Bold = 1 << 0,
-        Italics = 1 << 1,
+        /// <summary> Italic style </summary>
+        Italic = 1 << 1,
+        /// <summary> Underlined style </summary>
         Underlined = 1 << 2
     }
 

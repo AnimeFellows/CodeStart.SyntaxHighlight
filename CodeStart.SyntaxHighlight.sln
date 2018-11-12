@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeStart.SyntaxHighlight", "CodeStart.SyntaxHighlight\CodeStart.SyntaxHighlight.csproj", "{23BA20F0-E2C1-40EF-A312-940F68DA397E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeStart.SyntaxHighlight.Tests", "CodeStart.SyntaxHighlight.Tests\CodeStart.SyntaxHighlight.Tests.csproj", "{FCDBE494-D7B5-4F0B-9CEA-02F88A3D61D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{23BA20F0-E2C1-40EF-A312-940F68DA397E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23BA20F0-E2C1-40EF-A312-940F68DA397E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23BA20F0-E2C1-40EF-A312-940F68DA397E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDBE494-D7B5-4F0B-9CEA-02F88A3D61D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDBE494-D7B5-4F0B-9CEA-02F88A3D61D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDBE494-D7B5-4F0B-9CEA-02F88A3D61D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDBE494-D7B5-4F0B-9CEA-02F88A3D61D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
